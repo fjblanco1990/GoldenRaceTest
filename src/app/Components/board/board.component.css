@@ -1,0 +1,52 @@
+.ContentFormBoard {
+    width: 50%;
+    margin: 0px auto;
+    margin-top: 10%;
+}
+
+.textBig {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* .dark {
+    background-color: ;
+    color: ;
+}
+
+.red {
+    background-color: ;
+    color: ;
+}
+
+.yellow {
+    background-color: ;
+    color: ;
+}
+
+.green {
+    background-color: ;
+    color: ;
+} */
+
+.purple {
+    background-color: #6f42c1;
+    color: white;
+}
+
+.pink {
+    background-color: #d63384;
+    color: white;
+}
+
+.greey {
+    background-color: #6c757d;
+    color: white;
+    
+}
+
+.orange {
+    background-color: #fd7e14;
+    color: white;
+}
+
