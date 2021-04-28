@@ -1,14 +1,15 @@
 <div class="ContentFormRegister">   
     <form method="get" [formGroup]="registrationForm">
     <div class="form-group">
-      <label class="text-center" >Ingresa tu nombre completo</label>
+      <label class="text-center" >Enter your full name</label>
       <input type="text" class="form-control"  placeholder="Enter name complet" formControlName="NameCompleted">
       <span class="help-block validationSpan" *ngIf="registrationForm.controls['NameCompleted'].errors?.required && 
               (registrationForm.controls['NameCompleted'].dirty || registrationForm.controls['NameCompleted'].touched)">
-      El nombre es obligatorio.
+              The name is required.
+      
   </span>
     </div>
 
-    <button type="button" class="btn btn-dark" (click)="SaveDataRegister()">Ingresar</button>
+    <button type="button" class="btn btn-dark" (click)="SaveDataRegister()">Pay in</button>
 </form>
 </div>
